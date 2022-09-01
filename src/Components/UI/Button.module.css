@@ -1,0 +1,22 @@
+.button {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: var(--accent);
+  cursor: pointer;
+  font-family: var(--text);
+  font-weight: 500;
+  width: 100%;
+  max-width: 15rem;
+  margin-top: 1rem;
+  border-radius: var(--b-radius);
+}
+.button:hover {
+  background-color: var(--light);
+  font-weight: 900;
+}
+.button:active {
+  background-color: var(--accent);
+}
